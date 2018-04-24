@@ -1,0 +1,23 @@
+.first {
+    color: darkturquoise;
+    background-color: #584261;
+    opacity: 0.5;
+}
+
+.second{
+    color:rgb(0, 206, 209);
+    background: rgba(56, 68, 0, 0.5);
+}
+
+.third {
+    color:#00ced1;
+    background-color: rgb(98, 69, 226);
+}
+
+.fbi1 {
+    opacity: 0.7;
+}
+
+.fbi2{
+    background-color: rgba(56, 68, 0, 0.4);
+}
