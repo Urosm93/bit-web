@@ -162,16 +162,18 @@ body {
     main div.people ul{
         float: left;
         display: inline-block;
-        widows: 90%;
-        padding-left: 30px;
-        margin: 10px 0;
+        widows: 85%;
+        
+        margin: 10px auto 60px auto;
+        padding-left: 35px; 
     }
     
     main div.people ul li{
         list-style: none;
         background-color: rgb(81, 169, 228);
         display:inline-block;
-        margin: 10px 0;
+        margin: 10px auto;
+        width: 90%;
         
     }
     main div.people ul li img{
@@ -215,8 +217,105 @@ body {
         margin-top: 10px;
         width: 90%;
     }
+    .h3margin{
+        margin-top: 60px;
+    }
+    .contact{
+        background-color: rgb(73, 219, 163);
+        color: white;
+        text-align: center;
+    }
+    h6 {
+        font-size: 20px;
+        font-weight: 400;
+    }
+    .contact h6{
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .contact p{
+        display: inline-block;
+        width:70%;
+        padding-bottom: 30px;   
+    }
 
+    .contact p i{
+        width: 30px;
+        padding-right: 15px;
+    }
+    .contact p a {
+        margin-left: 17px;
+    }
 
+    .connect {
+        color: white;
+        background-color: rgb(204, 35, 134);
+        text-align: center;
+    }
+    
+    .connect h6{
+        padding-top: 20px;
+        margin-top: 0px;
+    }
+    .connect ul{
+        padding: 0px;
+        padding-bottom: 50px;
+        margin-bottom: 0;
+        
+    }.connect ul li{
+        list-style: none;
+        display: inline-block;
+        width: 50px;
+    }
+    .connect ul li i{
+        display: inline-block;
+        float: left;
+    }
+    .wifi i{
+        padding-bottom: 10px;
+    }
+    .address {
+        background-color: rgb(38, 38, 230);
+        text-align: center;
+        color: white;
+    }
+    .address h6 {
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .address address {
+        display: inline-block;
+        width: auto;
+        padding-bottom: 30px;
+        font-weight: 400;
+    }
+    .address i{
+        width: auto;
+    }
+    .home img{
+        width: 85%;
+    }
+    .home{
+        background-color: rgb(86, 198, 233);
+    }
+    .form{
+        width: 80%;
+        margin:20px auto;
+    }
+    .form form input{
+        margin-bottom: 15px;
+    }
+    .form form textarea{
+        margin-bottom: 15px;
+    } 
+    .submit{
+        background-color: orange;
+        border-radius: 3px;
+        color: white;
+        width: 25%;
+        border-style: none;
+        padding: 10px;
+    }
 
     .social-icons img {
         display: block;
@@ -225,11 +324,35 @@ body {
     .people img {
         width:50px
     }
-    .home img {
-        width:100px;
-    }
+    
     iframe {
-        width:300px;
+        width:100%;
+    }
+    footer {
+        background-color: rgb(41, 39, 39);
+    }
+    footer ul li a{
+        color: white;
+        text-decoration: none; 
+        font-size: 13px;
+        font-weight: 550;
+
+    }
+    footer ul{
+        list-style: none;
+        padding-left: 35px;
+        padding-top: 40px;
+    }
+    footer ul li{
+        display: inline;
+        margin-right: 10px;
+    }
+    footer p{
+        color:white;
+        font-size: 13px;
+        font-weight: 550;
+        text-align: center;
+        padding-bottom: 40px;
     }
 }
 
