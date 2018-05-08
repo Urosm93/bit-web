@@ -1,0 +1,17 @@
+table {
+    width: $tableWidth;
+    color: $lupaj;
+    background: $white;
+    border-collapse: collapse;
+    @include boxShadow($blue, $sneg);
+    tr {
+        border-bottom: 10px solid $blue;
+    }
+    td {
+        padding: 5px 0;
+        &:first-child{
+            width: $firstTdWidth;
+            padding-left: 40px;
+        }
+    }
+}

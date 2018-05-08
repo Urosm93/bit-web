@@ -1,0 +1,10 @@
+@mixin textShadow($color,$size){
+    text-shadow: 2px 2px $color;
+    font-size: $size;
+
+}
+
+@mixin boxShadow($color, $color2){
+    box-shadow: 3px 3px $color;
+    background-color: $color2;
+}

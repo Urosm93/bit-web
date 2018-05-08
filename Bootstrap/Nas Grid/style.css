@@ -1,0 +1,13 @@
+body {
+    padding: 20px 20px;}
+.content {
+    height: 150px;
+    width: 100%;
+    background-color: rgb(104, 127, 233);
+}
+.margin {
+    margin-bottom: 20px;
+}
+.aside {
+    height: 200px;
+}

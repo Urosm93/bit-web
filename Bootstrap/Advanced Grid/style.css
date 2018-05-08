@@ -1,0 +1,10 @@
+body {
+    padding: 20px 0;}
+.content {
+    height: 100px;
+    width: 100%;
+    background-color: rgb(104, 127, 233);
+}
+.margin {
+    margin-bottom: 20px;
+}

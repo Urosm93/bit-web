@@ -1,0 +1,16 @@
+body {
+    padding: 20px 0;}
+.content {
+    height: 100px;
+    background-color: rgb(104, 127, 233);
+}
+.padding {
+    margin-bottom: 20px;
+}
+
+.red {
+    background-color: rgb(223, 67, 67);
+}
+.green {
+    background-color: rgb(35, 153, 35);
+}

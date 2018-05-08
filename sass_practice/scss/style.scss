@@ -1,0 +1,21 @@
+.paragrafStyle {
+    background-color: aquamarine;
+    font-size: 35px;
+    color: blue;
+
+}
+
+.red {
+    border: 2px dashed red;
+    @extend .paragrafStyle;
+}
+.blue {
+    border: 3px solid blue;
+    @extend .paragrafStyle;
+}
+.green {
+    border: 4px solid green;
+    @extend .paragrafStyle;
+}
+
+
