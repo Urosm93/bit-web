@@ -1,0 +1,22 @@
+@import "mixins";
+
+#profile{
+    background-color: $greenish;
+
+    img{
+        display:block;
+        margin: $center;
+    }
+    h1{
+        color:$white;
+        text-align: center;
+    }
+    h3{
+        @include h3();
+    }
+    i{
+        @include star($white);
+    }
+
+
+}
