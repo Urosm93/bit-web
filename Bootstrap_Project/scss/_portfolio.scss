@@ -1,0 +1,11 @@
+@import "mixins";
+
+#portfolio{
+    h2{
+        @include h2();
+    }
+
+    i{
+        @include star(black);
+    }
+}
