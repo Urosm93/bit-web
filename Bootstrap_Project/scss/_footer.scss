@@ -1,0 +1,31 @@
+footer{
+    background-color: $bluish;
+    text-align: center;
+    color: $white;
+    padding: 20px;
+    font-weight: bold;
+    p{
+        margin-bottom: 0px;
+    }
+    h2{
+        font-weight: bold;
+        font-size: 24px;
+        text-transform: uppercase;
+        margin: 40px 0px;
+    }
+    #copyright{
+        margin-top: 100px;
+    }
+    #thanks{
+        font-size: 12px;
+        font-weight: 400;
+        color: grey;
+    }
+    .radius{
+        border: 2px solid white;
+        padding: 10px;
+        border-radius: 50%;
+        width: 40px;
+    }
+
+}
