@@ -1,18 +1,24 @@
 @import "mixins";
 
 #profile{
+    padding: 40px 0px;
     background-color: $greenish;
 
     img{
+        width: 200px;
         display:block;
         margin: $center;
+        margin-bottom: 15px;
     }
     h1{
         color:$white;
         text-align: center;
+        font-family: $font;
+        font-size: 28px;
     }
     h3{
         @include h3();
+        margin-bottom: 30px;
     }
     i{
         @include star($white);

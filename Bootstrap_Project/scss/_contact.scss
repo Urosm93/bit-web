@@ -1,0 +1,44 @@
+#contact{
+    padding:50px 0px;
+    h2{
+        text-align: center;
+        display: block;
+        
+    }
+    
+    i{
+        @include star($bluish);
+        margin-bottom: 15px;
+    }
+    input{
+        width: 100%;
+        padding: 20px;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-size: 20px;
+        font-weight: bold;
+       
+    }
+    textarea{
+        width: 100%;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    #sub{
+        width: max-content;
+        background-color: $greenish;
+        padding: 10px 20px;
+        font-size: 20px;
+        color:$white;
+        border:none;
+        border-radius: 5px;
+        font-weight: bold;
+        margin:10px;
+    }
+    
+}

@@ -3,12 +3,17 @@
 @import "profile";
 @import "mixins";
 @import "portfolio";
+@import "about";
+@import "contact";
+@import "footer";
 
-/* {
+
+ *{
     box-sizing: border-box;
-}*/
+}
 
 main {
     margin-top: 56px;
+    font-family: $font;
 }
 

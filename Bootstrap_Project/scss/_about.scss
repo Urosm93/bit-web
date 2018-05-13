@@ -1,0 +1,27 @@
+
+#about{
+    background-color: $greenish;
+    color: $white;
+    padding: 40px 5px;
+    
+    h2{
+        display: block;
+        text-align: center;
+    }
+    .fa-star{
+        @include star($white);
+    }
+    button{
+        background-color: $greenish;
+        border: 1px solid white;
+        color: white;
+        font-size: 14px;
+        display: block;
+        margin: $center;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    p{
+        margin-top: 10px;
+    }
+}
